@@ -5,7 +5,7 @@ Project:
  Company: ''
  Copyright: ''
  FormatVersion: 1
- CoreVersion: 8.0.0.67
+ CoreVersion: 8.0.0.78
  Dependencies:
   2:
    Uri: Sample01
@@ -13,26 +13,26 @@ Project:
   3:
    Uri: 'urn:QPlatform:Core:Net'
    Module: QPlatform.Core.Net
-   Version: 6.2.1.107
+   Version: 6.2.1.118
   4:
    Uri: 'urn:QPlatform:CoreBase'
    Module: QPlatform.CoreBase
-   Version: 8.0.5.107
+   Version: 8.0.5.118
   5:
    Uri: 'urn:QPlatform:CoreBase:Net'
    Module: QPlatform.CoreBase.Net
-   Version: 5.0.5.107
+   Version: 5.0.5.118
   6:
    Uri: 'urn:QPlatform:TagImporter'
    Module: QPlatform.TagImporter
-   Version: 2.0.23.107
+   Version: 2.0.23.118
   7:
    Uri: 'urn:QPlatform:CoDeSysDriverTagImporter'
    Module: QPlatform.CoDeSysDriverTagImporter
-   Version: 3.0.1.107
+   Version: 3.0.1.118
   8:
    Uri: 'urn:QPlatform:NetLogic'
    Module: QPlatform.NetLogic
-   Version: 5.0.5.107
+   Version: 5.0.5.118
  Nodes:
  - File: DesignTimeNodes/CommDrivers/CODESYSDriver1/CODESYSStation1/TagImporter.yaml

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module version="1">
+    <Name>Sample01UserDefinedModule</Name>
+    <Company></Company>
+    <Version>0.0.0</Version>
+    <MinUpgradableVersion>0.0.0</MinUpgradableVersion>
+    <Binding name="Net" />
+
+    <Namespaces/>
+
+    <Dependencies>
+        <Core version="0.0.0" />
+        <Binding version="0.0.0" />
+        <Module name="QPlatform.HMIProject.Net" version="0.0.0" />
+    </Dependencies>
+
+    <Nodes/>
+
+    <TypeMappings>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Sample01" guid="12d8a1dc4b799e2e97ba62b60d327f2f" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Sample01" guid="df68ed1522962b4418ace5227ec2acdd" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Sample01" guid="eeaf178b88a96872317241fc9f561e39" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Sample01" guid="8ec30ac82766b7a1e410a182bc7df689" />
+            </TargetType>
+        </TypeMapping>
+    </TypeMappings>
+</Module>

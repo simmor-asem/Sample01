@@ -1,0 +1,10 @@
+Project C:/Users/simmor/ASEM S.r.l. con Socio Unico/Sales Engineers - Documents/Events/202203 - Automatisierungstreff 2022/Sample01/Sample01.uniqo upgraded on 28-03-2022 18:28:16.738
+
+Upgraded modules:
+QPlatform.UI: from 43.3.0.44 to 43.4.0.4
+QPlatform.UI.Net: from 31.4.0.44 to 31.5.0.4
+QPlatform.NativeUI: from 26.3.0.44 to 26.4.0.4
+
+No potential breaking changes detected
+
+
