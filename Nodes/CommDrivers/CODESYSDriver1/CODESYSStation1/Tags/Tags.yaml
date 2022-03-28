@@ -1,0 +1,547 @@
+Name: Tags
+Type: BaseObjectType
+Children:
+- Name: Application
+  Type: TagStructure
+  Children:
+  - Name: PLC_PRG
+    Type: TagStructure
+    Children:
+    - Name: Alarm01
+      Type: CoDeSysTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PLC_PRG.Alarm01"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=11;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: Alarm02
+      Type: CoDeSysTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PLC_PRG.Alarm02"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=11;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: Bool1
+      Id: g=9174700d74740ce356e466c5c8188a18
+      Type: CoDeSysTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PLC_PRG.Bool1"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=11;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: Bool2
+      Id: g=092507d298ae3d31fdc7de1d1b6f5f9d
+      Type: CoDeSysTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PLC_PRG.Bool2"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=11;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: FanArray
+      Id: g=fc5e5fd6aef65cf7be6f19fc4f7c69ea
+      Type: TagStructureArray
+      Children:
+      - Name: ArrayDimensions
+        Type: PropertyType
+        DataType: UInt32
+        ValueRank: OneDimension
+        ArrayDimensions: [0]
+        Value: [11]
+      - Name: 10
+        Type: TagStructure
+        Children:
+        - Name: rpm
+          Type: CoDeSysTag
+          DataType: Int16
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.FanArray[10].rpm"
+          - Name: Quality
+            Type: BaseDataVariableType
+            DataType: ns=11;Quality
+            AccessLevel: Read
+            Value: 0
+          - Name: OperationCode
+            Type: BaseDataVariableType
+            DataType: TagOperationCode
+            AccessLevel: Read
+            Value: -2144272384
+        - Name: running
+          Type: CoDeSysTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.FanArray[10].running"
+          - Name: Quality
+            Type: BaseDataVariableType
+            DataType: ns=11;Quality
+            AccessLevel: Read
+            Value: 0
+          - Name: OperationCode
+            Type: BaseDataVariableType
+            DataType: TagOperationCode
+            AccessLevel: Read
+            Value: -2144272384
+      - Name: 1
+        Id: g=a5bd36489fa7bfa8aabb14627f62f0e3
+        Type: TagStructure
+        Children:
+        - Name: rpm
+          Type: CoDeSysTag
+          DataType: Int16
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.FanArray[1].rpm"
+          - Name: Quality
+            Type: BaseDataVariableType
+            DataType: ns=11;Quality
+            AccessLevel: Read
+            Value: 0
+          - Name: OperationCode
+            Type: BaseDataVariableType
+            DataType: TagOperationCode
+            AccessLevel: Read
+            Value: -2144272384
+        - Name: running
+          Type: CoDeSysTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.FanArray[1].running"
+          - Name: Quality
+            Type: BaseDataVariableType
+            DataType: ns=11;Quality
+            AccessLevel: Read
+            Value: 0
+          - Name: OperationCode
+            Type: BaseDataVariableType
+            DataType: TagOperationCode
+            AccessLevel: Read
+            Value: -2144272384
+      - Name: 2
+        Type: TagStructure
+        Children:
+        - Name: rpm
+          Type: CoDeSysTag
+          DataType: Int16
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.FanArray[2].rpm"
+          - Name: Quality
+            Type: BaseDataVariableType
+            DataType: ns=11;Quality
+            AccessLevel: Read
+            Value: 0
+          - Name: OperationCode
+            Type: BaseDataVariableType
+            DataType: TagOperationCode
+            AccessLevel: Read
+            Value: -2144272384
+        - Name: running
+          Type: CoDeSysTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.FanArray[2].running"
+          - Name: Quality
+            Type: BaseDataVariableType
+            DataType: ns=11;Quality
+            AccessLevel: Read
+            Value: 0
+          - Name: OperationCode
+            Type: BaseDataVariableType
+            DataType: TagOperationCode
+            AccessLevel: Read
+            Value: -2144272384
+      - Name: 3
+        Type: TagStructure
+        Children:
+        - Name: rpm
+          Type: CoDeSysTag
+          DataType: Int16
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.FanArray[3].rpm"
+          - Name: Quality
+            Type: BaseDataVariableType
+            DataType: ns=11;Quality
+            AccessLevel: Read
+            Value: 0
+          - Name: OperationCode
+            Type: BaseDataVariableType
+            DataType: TagOperationCode
+            AccessLevel: Read
+            Value: -2144272384
+        - Name: running
+          Type: CoDeSysTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.FanArray[3].running"
+          - Name: Quality
+            Type: BaseDataVariableType
+            DataType: ns=11;Quality
+            AccessLevel: Read
+            Value: 0
+          - Name: OperationCode
+            Type: BaseDataVariableType
+            DataType: TagOperationCode
+            AccessLevel: Read
+            Value: -2144272384
+      - Name: 4
+        Type: TagStructure
+        Children:
+        - Name: rpm
+          Type: CoDeSysTag
+          DataType: Int16
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.FanArray[4].rpm"
+          - Name: Quality
+            Type: BaseDataVariableType
+            DataType: ns=11;Quality
+            AccessLevel: Read
+            Value: 0
+          - Name: OperationCode
+            Type: BaseDataVariableType
+            DataType: TagOperationCode
+            AccessLevel: Read
+            Value: -2144272384
+        - Name: running
+          Type: CoDeSysTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.FanArray[4].running"
+          - Name: Quality
+            Type: BaseDataVariableType
+            DataType: ns=11;Quality
+            AccessLevel: Read
+            Value: 0
+          - Name: OperationCode
+            Type: BaseDataVariableType
+            DataType: TagOperationCode
+            AccessLevel: Read
+            Value: -2144272384
+      - Name: 5
+        Type: TagStructure
+        Children:
+        - Name: rpm
+          Type: CoDeSysTag
+          DataType: Int16
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.FanArray[5].rpm"
+          - Name: Quality
+            Type: BaseDataVariableType
+            DataType: ns=11;Quality
+            AccessLevel: Read
+            Value: 0
+          - Name: OperationCode
+            Type: BaseDataVariableType
+            DataType: TagOperationCode
+            AccessLevel: Read
+            Value: -2144272384
+        - Name: running
+          Type: CoDeSysTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.FanArray[5].running"
+          - Name: Quality
+            Type: BaseDataVariableType
+            DataType: ns=11;Quality
+            AccessLevel: Read
+            Value: 0
+          - Name: OperationCode
+            Type: BaseDataVariableType
+            DataType: TagOperationCode
+            AccessLevel: Read
+            Value: -2144272384
+      - Name: 6
+        Type: TagStructure
+        Children:
+        - Name: rpm
+          Type: CoDeSysTag
+          DataType: Int16
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.FanArray[6].rpm"
+          - Name: Quality
+            Type: BaseDataVariableType
+            DataType: ns=11;Quality
+            AccessLevel: Read
+            Value: 0
+          - Name: OperationCode
+            Type: BaseDataVariableType
+            DataType: TagOperationCode
+            AccessLevel: Read
+            Value: -2144272384
+        - Name: running
+          Type: CoDeSysTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.FanArray[6].running"
+          - Name: Quality
+            Type: BaseDataVariableType
+            DataType: ns=11;Quality
+            AccessLevel: Read
+            Value: 0
+          - Name: OperationCode
+            Type: BaseDataVariableType
+            DataType: TagOperationCode
+            AccessLevel: Read
+            Value: -2144272384
+      - Name: 7
+        Type: TagStructure
+        Children:
+        - Name: rpm
+          Type: CoDeSysTag
+          DataType: Int16
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.FanArray[7].rpm"
+          - Name: Quality
+            Type: BaseDataVariableType
+            DataType: ns=11;Quality
+            AccessLevel: Read
+            Value: 0
+          - Name: OperationCode
+            Type: BaseDataVariableType
+            DataType: TagOperationCode
+            AccessLevel: Read
+            Value: -2144272384
+        - Name: running
+          Type: CoDeSysTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.FanArray[7].running"
+          - Name: Quality
+            Type: BaseDataVariableType
+            DataType: ns=11;Quality
+            AccessLevel: Read
+            Value: 0
+          - Name: OperationCode
+            Type: BaseDataVariableType
+            DataType: TagOperationCode
+            AccessLevel: Read
+            Value: -2144272384
+      - Name: 8
+        Type: TagStructure
+        Children:
+        - Name: rpm
+          Type: CoDeSysTag
+          DataType: Int16
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.FanArray[8].rpm"
+          - Name: Quality
+            Type: BaseDataVariableType
+            DataType: ns=11;Quality
+            AccessLevel: Read
+            Value: 0
+          - Name: OperationCode
+            Type: BaseDataVariableType
+            DataType: TagOperationCode
+            AccessLevel: Read
+            Value: -2144272384
+        - Name: running
+          Type: CoDeSysTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.FanArray[8].running"
+          - Name: Quality
+            Type: BaseDataVariableType
+            DataType: ns=11;Quality
+            AccessLevel: Read
+            Value: 0
+          - Name: OperationCode
+            Type: BaseDataVariableType
+            DataType: TagOperationCode
+            AccessLevel: Read
+            Value: -2144272384
+      - Name: 9
+        Type: TagStructure
+        Children:
+        - Name: rpm
+          Type: CoDeSysTag
+          DataType: Int16
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.FanArray[9].rpm"
+          - Name: Quality
+            Type: BaseDataVariableType
+            DataType: ns=11;Quality
+            AccessLevel: Read
+            Value: 0
+          - Name: OperationCode
+            Type: BaseDataVariableType
+            DataType: TagOperationCode
+            AccessLevel: Read
+            Value: -2144272384
+        - Name: running
+          Type: CoDeSysTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.FanArray[9].running"
+          - Name: Quality
+            Type: BaseDataVariableType
+            DataType: ns=11;Quality
+            AccessLevel: Read
+            Value: 0
+          - Name: OperationCode
+            Type: BaseDataVariableType
+            DataType: TagOperationCode
+            AccessLevel: Read
+            Value: -2144272384
+    - Name: Int1
+      Id: g=3eb8b04a22e7870c0f92426f274c1987
+      Type: CoDeSysTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PLC_PRG.Int1"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=11;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: Int2
+      Type: CoDeSysTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PLC_PRG.Int2"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=11;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384

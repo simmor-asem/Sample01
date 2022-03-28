@@ -1,0 +1,79 @@
+Project:
+ Name: Sample01
+ ProjectNamespaceIndex: 19
+ Description: ''
+ Company: ''
+ Copyright: ''
+ FormatVersion: 1
+ CoreVersion: 8.0.0.67
+ Dependencies:
+  2:
+   Uri: 'urn:QPlatform:Core:Net'
+   Module: QPlatform.Core.Net
+   Version: 6.2.1.107
+  3:
+   Uri: 'urn:QPlatform:CoreBase'
+   Module: QPlatform.CoreBase
+   Version: 8.0.5.107
+  4:
+   Uri: 'urn:QPlatform:CoreBase:Net'
+   Module: QPlatform.CoreBase.Net
+   Version: 5.0.5.107
+  5:
+   Uri: 'urn:QPlatform:UI'
+   Module: QPlatform.UI
+   Version: 43.3.0.44
+  6:
+   Uri: 'urn:QPlatform:UI:Net'
+   Module: QPlatform.UI.Net
+   Version: 31.4.0.44
+  7:
+   Uri: 'urn:QPlatform:HMIProject'
+   Module: QPlatform.HMIProject
+   Version: 10.1.4.107
+  8:
+   Uri: 'urn:QPlatform:HMIProject:Net'
+   Module: QPlatform.HMIProject.Net
+   Version: 6.1.4.107
+  9:
+   Uri: 'urn:QPlatform:NativeUI'
+   Module: QPlatform.NativeUI
+   Version: 26.3.0.44
+  10:
+   Uri: 'urn:QPlatform:NativeUI:Net'
+   Module: QPlatform.NativeUI.Net
+   Version: 2.0.8.107
+  11:
+   Uri: 'urn:QPlatform:CommunicationDriver'
+   Module: QPlatform.CommunicationDriver
+   Version: 5.0.1.107
+  12:
+   Uri: 'urn:QPlatform:CommunicationDriver:Net'
+   Module: QPlatform.CommunicationDriver.Net
+   Version: 4.0.1.107
+  13:
+   Uri: 'urn:QPlatform:Alarm'
+   Module: QPlatform.Alarm
+   Version: 7.0.8.107
+  14:
+   Uri: 'urn:QPlatform:Alarm:Net'
+   Module: QPlatform.Alarm.Net
+   Version: 3.0.24.107
+  15:
+   Uri: 'urn:QPlatform:NetLogic'
+   Module: QPlatform.NetLogic
+   Version: 5.0.5.107
+  16:
+   Uri: 'urn:QPlatform:WebUI'
+   Module: QPlatform.WebUI
+   Version: 3.0.1.107
+  17:
+   Uri: 'urn:QPlatform:CoDeSysDriver'
+   Module: QPlatform.CoDeSysDriver
+   Version: 4.0.23.107
+  18:
+   Uri: 'urn:QPlatform:CoDeSys:Net'
+   Module: QPlatform.CoDeSys.Net
+   Version: 4.0.23.107
+ Nodes:
+ - File: Nodes/Sample01.yaml

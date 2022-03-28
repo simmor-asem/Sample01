@@ -1,0 +1,38 @@
+Project:
+ Name: Sample01_Design
+ ProjectNamespaceIndex: 9
+ Description: ''
+ Company: ''
+ Copyright: ''
+ FormatVersion: 1
+ CoreVersion: 8.0.0.67
+ Dependencies:
+  2:
+   Uri: Sample01
+   RelativePath: Sample01.uniqo
+  3:
+   Uri: 'urn:QPlatform:Core:Net'
+   Module: QPlatform.Core.Net
+   Version: 6.2.1.107
+  4:
+   Uri: 'urn:QPlatform:CoreBase'
+   Module: QPlatform.CoreBase
+   Version: 8.0.5.107
+  5:
+   Uri: 'urn:QPlatform:CoreBase:Net'
+   Module: QPlatform.CoreBase.Net
+   Version: 5.0.5.107
+  6:
+   Uri: 'urn:QPlatform:TagImporter'
+   Module: QPlatform.TagImporter
+   Version: 2.0.23.107
+  7:
+   Uri: 'urn:QPlatform:CoDeSysDriverTagImporter'
+   Module: QPlatform.CoDeSysDriverTagImporter
+   Version: 3.0.1.107
+  8:
+   Uri: 'urn:QPlatform:NetLogic'
+   Module: QPlatform.NetLogic
+   Version: 5.0.5.107
+ Nodes:
+ - File: DesignTimeNodes/CommDrivers/CODESYSDriver1/CODESYSStation1/TagImporter.yaml

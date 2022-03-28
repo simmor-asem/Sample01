@@ -1,0 +1,20 @@
+Name: Users
+Id: g=99cf75c75b9512ef10419df3163bbf6c
+Type: FolderType
+Children:
+- Name: Guest
+  Id: g=cfe0dbfc260bd9d761a57d4db7c5c2c8
+  Type: UserType
+  Children:
+  - Name: Password
+    Type: BaseVariableType
+    DataType: Password
+    ReferenceType: HasProperty
+    Value: ""
+  - Name: LocaleIds
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US"]

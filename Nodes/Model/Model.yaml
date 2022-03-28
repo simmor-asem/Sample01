@@ -1,0 +1,15 @@
+Name: Model
+Type: FolderType
+Children:
+- Class: DataType
+  Name: FanName
+  Id: g=3411fe732cea28fe4e8c3728b1aae7dc
+  Supertype: Enumeration
+  Children:
+  - Name: EnumValues
+    Type: BaseDataVariableType
+    DataType: EnumValueType
+    ModellingRule: None
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: [{"TypeId":{"Id":7594},"Body":{"Value":1,"DisplayName":{"LocaleId":"en-US","Text":"Uno"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":2,"DisplayName":{"LocaleId":"en-US","Text":"Due"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":3,"DisplayName":{"LocaleId":"en-US","Text":"Tre"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
